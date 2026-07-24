@@ -1,7 +1,16 @@
 aid: blue-fever
 name: Blue Fever
-description: Blue Fever is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blue Fever is a social and mental-health app for young people that pairs a
+  judgment-free peer community with "Blue," an AI emotional-support companion,
+  under the tagline "A place to feel seen, not be seen." Users share thoughts,
+  moods, and creative expression and receive support from both community members
+  and the AI companion, alongside curated wellness resources and crisis support.
+  The app is available on iOS and Android, has been featured as an Apple App of
+  the Day, and carries a 4.6 App Store rating. The company was surfaced as a
+  Techstars portfolio company and added to the API Evangelist network; it is a
+  consumer application with no public developer API, SDK, or documentation
+  surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/blue-fever/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://images.squarespace-cdn.com/content/v1/5ec2d07f2c4cbc5165c94ceb/1622167439393-6SIUT445PWZY4T1JTI91/logo-blue.png?format=1500w
 tags:
 - Company
+- Mental Health
+- Social
+- Wellness
+- AI
+- Consumer App
+- Teens
+- Emotional Support
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://bluefever.com/
+- type: About
+  url: https://bluefever.com/about
+- type: Blog
+  url: https://bluefever.com/social-wellness-blog
+- type: Support
+  url: https://bluefever.com/faq
+- type: PrivacyPolicy
+  url: https://bluefever.com/privacy
+- type: TermsOfService
+  url: https://bluefever.com/terms
+- type: DomainSecurity
+  url: security/blue-fever-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
